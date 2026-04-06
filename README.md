@@ -65,27 +65,6 @@ Forge works with built-in Claude Code tools only. These optional tools improve t
 
 The wiki is a persistent, compounding artifact. Knowledge compiles once, stays current through maintenance.
 
-## Skill Structure
-
-```
-forge/
-├── SKILL.md                        # main skill definition
-├── agents/
-│   ├── compiler.md                 # parallel compilation subagent
-│   └── researcher.md               # deep query research subagent
-├── references/
-│   ├── compilation.md              # compilation protocol + manifest schema
-│   ├── formatting.md               # article template + Obsidian markdown spec
-│   ├── lint-rules.md               # lint ruleset
-│   ├── evolution.md                # evolution strategies
-│   ├── marp-setup.md              # Marp slide deck setup
-│   └── web-clipper-setup.md       # Obsidian Web Clipper setup
-└── scripts/
-    ├── scaffold.js                 # init directory structure
-    ├── hash_tracker.js             # content hash computation
-    └── lint_wikilinks.js           # broken wikilink detection
-```
-
 ## License
 
 [MIT](LICENSE)
